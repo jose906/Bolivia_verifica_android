@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Bolivia Verifica</string>
+    <string name="inicio">inicio</string>
+    <string name="secciones">secciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="account_exists_message">o Registrate</string>
+    <string name="Registrate">Crea una tu cuenta del Bolivia Verifca</string>
+    <string name="registro">Registrarse</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="Mis_Noticias">Mis Noticias</string>
+    <string name="sesion">Iniciar Sesion</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pass">Contraseña</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="default_notification_channel_id">1001</string>
+    <string name="fcm_message">Bolivia Verifica</string>
+    <string name="guardado">Guardado</string>
+    <string name="settings">Configuraciones</string>
+    <string name="buscar">Buscar</string>
+    <string name="buscarposts">Buscar por tema</string>
+    <string name="Share">Compartir</string>
+    <string name="quines">¿Quiénes somos?</string>
+    <string name="transparencia">Transparencia</string>
+    <string name="metodologia">Metodologia</string>
+    <string name="not_found">Usuario no encontrado</string>
+    <string name="not_mail">Correo no encontrado</string>
+    <string name="sig">Siguiente</string>
+    <string name="ant">Anterior</string>
+    <string name="busqueda">Buscar</string>
+    <string name="soluciones">Soluciones</string>
+    <string name="todas">Todas</string>
+    <string name="privacidad">Politica de privacidad</string>
+    <string name="odio">Discuros de odio</string>
+
+
+</resources>

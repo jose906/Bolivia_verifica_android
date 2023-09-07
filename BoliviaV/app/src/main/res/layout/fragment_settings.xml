@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingsFragment"
+    android:background="@drawable/fondo_nuevos_iconos"
+    android:backgroundTint="#7CDCDC0A"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               >
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+
+                   >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/set_name"
+               android:text="@string/not_found"
+               android:layout_marginTop="10dp"
+               android:layout_marginStart="10dp"
+
+               />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/set_mail"
+                android:text="@string/not_mail"
+                android:layout_marginStart="10dp"
+                />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/sesion"
+                   android:id="@+id/start_secion"
+                   android:layout_gravity="end"
+                   android:layout_marginEnd="20dp"
+                   android:layout_marginBottom="10dp"
+                   />
+               </LinearLayout>
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:visibility="invisible"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/notificaciones"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/quines"
+            android:textColor="@color/black"
+            android:id="@+id/quienes"
+            android:backgroundTint="@color/bolivia_red"
+
+            android:layout_margin="1dp"
+            android:textAlignment="viewStart"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/transparencia"
+            android:textColor="@color/black"
+            android:id="@+id/transparencia"
+
+            android:backgroundTint="@color/amarillo"
+            android:textAlignment="viewStart"
+            android:layout_margin="1dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/metodologia"
+            android:textColor="@color/black"
+            android:id="@+id/metodologia"
+
+            android:backgroundTint="@color/verde"
+            android:textAlignment="viewStart"
+            android:layout_margin="1dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/privacidad"
+            android:textColor="@color/black"
+            android:id="@+id/privacidad"
+
+            android:backgroundTint="@color/verde"
+            android:textAlignment="viewStart"
+            android:layout_margin="1dp"
+            />
+
+
+    </LinearLayout>
+</FrameLayout>

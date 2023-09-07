@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "209333731238",
+    "firebase_url": "https://bolivia-verifica.firebaseio.com",
+    "project_id": "bolivia-verifica",
+    "storage_bucket": "bolivia-verifica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209333731238:android:b3c83f02d549a7fae85967",
+        "android_client_info": {
+          "package_name": "com.bolivia.verifica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209333731238-3d77a49a850q3oe37rpk4tsmlv6j1b9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bolivia.verifica",
+            "certificate_hash": "1ddd54ed3b0b87b80fda78ab6bf1f0f3d089f8ea"
+          }
+        },
+        {
+          "client_id": "209333731238-ne3lblmd6aj1gs37fpp9l5cbnrhc9edi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNweNUINBFPx2MtgkPAWInVM3bq-OypTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209333731238-ne3lblmd6aj1gs37fpp9l5cbnrhc9edi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "209333731238-89rmfoejprc4m5ut64a7069mrul9kgi6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bolivia.verifica"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
